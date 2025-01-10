@@ -1,0 +1,1 @@
+This repository demonstrates a common React Native bug: accessing state before it's initialized. The `bug.js` file shows the problematic code, leading to undefined values. The solution, in `bugSolution.js`, utilizes the useEffect hook to ensure state is initialized before rendering.
